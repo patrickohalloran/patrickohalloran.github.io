@@ -86,8 +86,6 @@ $(document).ready(function() {
 				$('#window-container').css("transform", "translateY(100%)");
 			} else if (e.keyCode == 39) {
 				$('#window-container').css("transform", "translateX(-100%)");
-			} else if (e.keyCode == 40) {
-				$('#window-container').css("transform", "translateY(-100%)");
 			}
 		}
 	});
@@ -108,7 +106,7 @@ $(document).ready(function() {
 	});
 
 	$('#contact').click(function() {
-		$('#window-container').css("transform", "translateY(-100%)");
+		window.location.href = "https://www.linkedin.com/in/patrickohalloran6";
 	});
 
 
@@ -125,9 +123,9 @@ $(document).ready(function() {
 		$('#window-container').css("transform", "translateX(-100%)");
 	});
 
-	$('#home-down').click(function() {
-		$('#window-container').css("transform", "translateY(-100%)");
-	});
+	// $('#home-down').click(function() {
+	// 	$('#window-container').css("transform", "translateY(-100%)");
+	// });
 
 	$('#about-right').click(function() {
 		$('#window-container').css("transform", "none");
